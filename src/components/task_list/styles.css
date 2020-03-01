@@ -1,0 +1,15 @@
+.task_list{
+    background-color: white;
+    padding: 0px;
+    list-style: none;
+}
+
+.element{
+    border-bottom: 1px solid;
+    padding: 10px;
+    color: rgba(0, 0 ,0 , 0.5);
+}
+
+.element:first-child{
+    border-top: 1px solid;
+}
