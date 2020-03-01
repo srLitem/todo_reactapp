@@ -1,0 +1,20 @@
+.new_form{
+    background-color: white;
+    padding: 16px;
+}
+
+.new_form > .todo_task{
+    border: 0;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.new_form > .todo_task:focus{
+    border: 0;
+    outline: none;
+}
+
+.new_form > .todo_task::placeholder{
+    opacity: .5;
+}
+
