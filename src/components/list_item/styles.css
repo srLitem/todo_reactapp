@@ -1,0 +1,26 @@
+.element{
+    border-bottom: 1px solid;
+    padding: 10px;
+    color: rgba(0, 0 ,0 , 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+.element:first-child{
+    border-top: 1px solid;
+}
+
+.title{
+    flex: 1;
+}
+
+.delete{
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(250, 0 ,0 , 0.5);
+    transition: opacity 0.1s ease-in;
+}
+
+.element:hover .delete{
+    opacity: 1;
+}

@@ -20,7 +20,14 @@ function App() {
           setList(list.concat(newTask))
         }
       }></Form>
-      <TaskList tasks={list}></TaskList>
+      <TaskList tasks={list}
+      onRemove={(id)=>{
+        setList(list.filter( (task) =>{
+          return task.id!=id
+        }
+        ))
+      }}
+      ></TaskList>
       </div>
     </div>
   );
