@@ -23,7 +23,7 @@ function App() {
       <TaskList tasks={list}
       onRemove={(id)=>{
         setList(list.filter( (task) =>{
-          return task.id!=id
+          return task.id!==id
         }
         ))
       }}

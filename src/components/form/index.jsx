@@ -13,7 +13,7 @@ class NewForm extends React.Component {
                     onSubmit={(e) => {
                         e.preventDefault();
 
-                        if (this.state.new_task != '') {
+                        if (this.state.new_task !== '') {
                             this.props.onSubmit(this.state.new_task)
                             console.log('Uyzonis');
                             this.setState({
